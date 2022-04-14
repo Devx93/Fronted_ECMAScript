@@ -50,3 +50,11 @@ let lorem = "texto de prueba para programar y separarla \n"
 
  let { name, age, country} = person;
  console.log(name,age,country);
+
+ //propagacion
+
+ let team1 = ['Goyo', 'Ricardo', 'Raul'];
+ let team2 = ['Laura', 'Yesica', 'Paola'];
+
+ let education = ['David', ...team1, ...team2];
+ console.log(education);
