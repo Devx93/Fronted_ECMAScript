@@ -13,3 +13,10 @@ function newFunction2(name = 'goyo', age = 29, country = 'EZL') {
 
 newFunction2(); // llamado sin elementos
 newFunction2('Ricardo', '23', 'COL');
+
+//template literals
+
+let hello = 'hello';
+let world = 'world';
+let epicPhrase = hello + ' ' + world;
+console.log(epicPhrase);
