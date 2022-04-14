@@ -20,3 +20,6 @@ let hello = 'hello';
 let world = 'world';
 let epicPhrase = hello + ' ' + world;
 console.log(epicPhrase);
+
+let epicPhrase2 = `${hello} ${world}`; //usando es6
+console.log(epicPhrase2);
