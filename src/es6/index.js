@@ -67,7 +67,14 @@ let lorem = "texto de prueba para programar y separarla \n"
 
  {
     let globalLet = "Global Let";
+    console.log(globalLet);
 }
 
 console.log(globalVar);
-console.log(globalLet);
+
+
+//elemento const
+
+var a = 'b';
+a = 'a';
+console.log(a);
