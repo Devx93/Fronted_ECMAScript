@@ -27,13 +27,26 @@ console.log(epicPhrase2);
 //clase 2
 
 let lorem = "texto de prueba para programar y separarla \n"
- + "otra frase epica que vamos a separar."
+ + "otra frase epica que vamos a separar.";
 
 
  //usando es6
 
  let lorem2 = `otra frase epica que necesitamos separar
- ahora es otra frase epica`
+ ahora es otra frase epica`;
 
  console.log(lorem);
  console.log(lorem2);
+
+ //
+
+ let person = {
+     'name': 'goyo',
+     'age': 32,
+     'country': 'COL'
+ }
+
+ console.log(person.name, person.age);
+
+ let { name, age, country} = person;
+ console.log(name,age,country);
