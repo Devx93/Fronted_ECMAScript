@@ -58,3 +58,16 @@ let lorem = "texto de prueba para programar y separarla \n"
 
  let education = ['David', ...team1, ...team2];
  console.log(education);
+
+ // let es una nueva forma de trabajar con elementos a guardar en memoria (variables)
+
+ {
+     var globalVar = "Global var";
+ }
+
+ {
+    let globalLet = "Global Let";
+}
+
+console.log(globalVar);
+console.log(globalLet);
