@@ -23,3 +23,17 @@ console.log(epicPhrase);
 
 let epicPhrase2 = `${hello} ${world}`; //usando es6
 console.log(epicPhrase2);
+
+//clase 2
+
+let lorem = "texto de prueba para programar y separarla \n"
+ + "otra frase epica que vamos a separar."
+
+
+ //usando es6
+
+ let lorem2 = `otra frase epica que necesitamos separar
+ ahora es otra frase epica`
+
+ console.log(lorem);
+ console.log(lorem2);
