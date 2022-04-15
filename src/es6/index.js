@@ -148,3 +148,5 @@ class calculator {
 
 const calc = new calculator();
 console.log(calc.sum(2, 2));
+
+// impor y export
