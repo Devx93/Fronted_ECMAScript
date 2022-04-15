@@ -78,3 +78,14 @@ console.log(globalVar);
 var a = 'b';
 a = 'a';
 console.log(a);
+
+// 
+
+let name = 'goyo';
+let age = 29;
+
+//es5
+obj = {name: name, age: age};
+//es6
+obj2 = {name, age};
+console.log(obj2);
