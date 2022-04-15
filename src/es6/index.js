@@ -155,4 +155,4 @@ import {hello} from './module';
 
 hello();
 
-//
+// generators 
