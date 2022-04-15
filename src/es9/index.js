@@ -9,3 +9,15 @@ console.log(name, all);
 
 let {country, ...all } = obj;
 console.log(all);
+
+const obj = {
+    name: 'goyo',
+    age: 29,
+};
+
+const obj2 = {
+    ...obj,
+    country: 'COL'
+};
+
+console.log(obj2);
