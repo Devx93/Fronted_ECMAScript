@@ -89,3 +89,26 @@ obj = {name: name, age: age};
 //es6
 obj2 = {name, age};
 console.log(obj2);
+
+//arrow functions
+
+const names = [
+    {name: 'Goyo', age: 29}
+    {name: 'Juan', age: 41}
+];
+
+let listOfNames = names.map(function(item) {
+    console.log(item.name);
+});
+
+let listOfNames2 = names.map(item => console.log(item.name));
+
+const listOfNames3 = (name, ages, country) => {
+    ... // codigo
+}
+
+const listOfNames4 = name => {
+    ... // codigo
+}
+
+const square = num => num * num;
