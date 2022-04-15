@@ -112,3 +112,22 @@ const listOfNames4 = name => {
 }
 
 const square = num => num * num;
+
+// promesas asincronismo , js no es sincronico
+
+const helloPromise = () => {
+    return new Promise((resolve, reject) => {
+        if (false) { //true
+            resolve('hey!');
+        } else {
+            reject('Ups!');
+        }       
+    });
+}
+//
+helloPromise()
+    .then(response => console.log(response))
+    //.then(() => console.log('hola'))
+    .catch(error => console.log(error));
+
+
